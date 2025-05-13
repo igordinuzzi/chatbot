@@ -1,8 +1,3 @@
-Absolutely! Here's your full `README.md` ready to copy and paste:
-
----
-
-```markdown
 # 🦄 UniCorn – University Assistant Chatbot
 
 **UniCorn** is a friendly and responsive chatbot designed to help students navigate university-related topics such as programs, campus life, admissions, and financial aid. Built using **React**, **React Router**, **Tailwind CSS**, and **Framer Motion**, this project showcases modern front-end development practices and animations.
@@ -108,7 +103,4 @@ Made with ❤️ by [Igor Dinuzzi](https://github.com/igordinuzzi)
 
 ```
 
----
 
-Let me know if you'd like a Spanish version or want to add a preview image or GIF!
-```
