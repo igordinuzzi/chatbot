@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/unicorn-chatbot/static/css/main.ae88dff2.css",
-    "main.js": "/unicorn-chatbot/static/js/main.54686bc6.js",
-    "static/media/unicorn.png": "/unicorn-chatbot/static/media/unicorn.7c28dc350b5dd421768f.png",
-    "index.html": "/unicorn-chatbot/index.html",
-    "main.ae88dff2.css.map": "/unicorn-chatbot/static/css/main.ae88dff2.css.map",
-    "main.54686bc6.js.map": "/unicorn-chatbot/static/js/main.54686bc6.js.map"
+    "main.css": "/chatbot/static/css/main.ae88dff2.css",
+    "main.js": "/chatbot/static/js/main.8ff207cb.js",
+    "static/media/unicorn.png": "/chatbot/static/media/unicorn.7c28dc350b5dd421768f.png",
+    "index.html": "/chatbot/index.html",
+    "main.ae88dff2.css.map": "/chatbot/static/css/main.ae88dff2.css.map",
+    "main.8ff207cb.js.map": "/chatbot/static/js/main.8ff207cb.js.map"
   },
   "entrypoints": [
     "static/css/main.ae88dff2.css",
-    "static/js/main.54686bc6.js"
+    "static/js/main.8ff207cb.js"
   ]
 }
