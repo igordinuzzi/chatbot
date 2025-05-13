@@ -1,70 +1,114 @@
-# Getting Started with Create React App
+Absolutely! Here's your full `README.md` ready to copy and paste:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+```markdown
+# 🦄 UniCorn – University Assistant Chatbot
 
-In the project directory, you can run:
+**UniCorn** is a friendly and responsive chatbot designed to help students navigate university-related topics such as programs, campus life, admissions, and financial aid. Built using **React**, **React Router**, **Tailwind CSS**, and **Framer Motion**, this project showcases modern front-end development practices and animations.
 
-### `npm start`
+🔗 **Live site**: [https://igordinuzzi.github.io/chatbot](https://igordinuzzi.github.io/chatbot)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Features
 
-### `npm test`
+- 🧭 Client-side routing with `react-router-dom`
+- 💬 Guided chatbot with branching options and animated message flow
+- 🦄 Custom avatar (UniCorn!) and friendly UI
+- 🎨 Fully styled with Tailwind CSS
+- ⚡ Transitions and animations via Framer Motion
+- 📱 Responsive design for mobile and desktop
+- 🔗 Clickable options with external links when needed
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📁 Project Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+src/
+├── assets/             # Unicorn avatar and other static files
+├── App.jsx             # Welcome screen
+├── ChatScreen.jsx      # Chatbot experience
+├── index.js            # App entry and routing
+├── index.css           # Global styles (Tailwind base)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+````
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🛠️ Installation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Clone the repo and install dependencies:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+git clone https://github.com/igordinuzzi/chatbot.git
+cd chatbot
+npm install
+npm start
+````
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Then open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🌐 Deployment (GitHub Pages)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project uses the `gh-pages` package for deployment.
 
-### Code Splitting
+### Step-by-step:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Ensure these lines are in your `package.json`:
 
-### Analyzing the Bundle Size
+```json
+"homepage": "https://igordinuzzi.github.io/chatbot",
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+2. Add `basename` in `index.js`:
 
-### Making a Progressive Web App
+```jsx
+<BrowserRouter basename="/chatbot">
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+3. Deploy:
 
-### Advanced Configuration
+```bash
+npm run build
+npm run deploy
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Visit: [https://igordinuzzi.github.io/chatbot](https://igordinuzzi.github.io/chatbot)
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 📦 Tech Stack
 
-### `npm run build` fails to minify
+* React
+* React Router DOM
+* Tailwind CSS
+* Framer Motion
+* Lucide React Icons
+* GitHub Pages
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## 📄 License
+
+This project is open for educational and demo purposes.
+Feel free to fork, reuse, or build upon it.
+
+---
+
+Made with ❤️ by [Igor Dinuzzi](https://github.com/igordinuzzi)
+
+```
+
+---
+
+Let me know if you'd like a Spanish version or want to add a preview image or GIF!
+```
