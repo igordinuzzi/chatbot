@@ -11,10 +11,10 @@
 - 🧭 Client-side routing with `react-router-dom`
 - 💬 Guided chatbot with branching options and animated message flow
 - 🦄 Custom avatar (UniCorn!) and friendly UI
-- 🎨 Fully styled with Tailwind CSS
-- ⚡ Transitions and animations via Framer Motion
-- 📱 Responsive design for mobile and desktop
-- 🔗 Clickable options with external links when needed
+- 🎨 Fully styled with Tailwind CSS utility classes
+- ⚡ Smooth transitions and animations via Framer Motion
+- 📱 Responsive and mobile-friendly layout
+- 🔗 Clickable options with external links where needed
 
 ---
 
@@ -81,6 +81,23 @@ Visit: [https://igordinuzzi.github.io/chatbot](https://igordinuzzi.github.io/cha
 
 ---
 
+## 🎨 Design & Figma Files
+
+This project was fully designed in Figma, from early wireframes to final UI:
+
+* 🧪 **Prototype**:
+  [View interactive prototype](https://www.figma.com/proto/ErtlOV5FdAyBnPg95PuQkB/Chatbot?page-id=5%3A881&node-id=5-882&viewport=177%2C244%2C1&t=RyoRYyF5S37ZIerH-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=5%3A882)
+
+* 🎨 **Design System**:
+  [View design system in Figma](https://www.figma.com/design/ErtlOV5FdAyBnPg95PuQkB/Chatbot?node-id=1-4&t=QG72uGjROJVaa874-1)
+
+* 🧱 **Mid-Fi Wireframes**:
+  [View wireframes in Figma](https://www.figma.com/design/ErtlOV5FdAyBnPg95PuQkB/Chatbot?node-id=0-1&t=QG72uGjROJVaa874-1)
+
+The layout uses Tailwind CSS utility classes, following a token-based spacing and typography system to ensure responsiveness and clarity across breakpoints.
+
+---
+
 ## 📦 Tech Stack
 
 * React
@@ -100,7 +117,5 @@ Feel free to fork, reuse, or build upon it.
 ---
 
 Made with ❤️ by [Igor Dinuzzi](https://github.com/igordinuzzi)
-
-```
 
 
